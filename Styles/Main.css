@@ -1,0 +1,141 @@
+button{
+    border-style: none;
+}
+
+.layout__main{
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__head {
+    display: flex;
+    max-width: 600px;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-width: 0.1px;
+    border-color: rgba(0,0,0,0.07);
+}
+
+.header__home {
+    font-weight:700;
+    font-size: 20px;
+}
+
+.header__whats-happening {
+    display: flex;
+    padding: 10px 16px 10px 16px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-width: 0.1px;
+    border-color: rgba(0,0,0,0.07);
+}
+
+.header__user-photo{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 48px;
+    width: 48px;
+    border-radius: 50%;
+}
+
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 3px 3px 10px;
+}
+
+.user-tweet{
+    border-style: none;
+    font-size: 20px;
+
+}
+
+.user-tweet:focus{
+    outline: none;
+}
+
+.content__options{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.main__button {
+    height: 36px;
+}
+
+.options__svgs{
+    display:flex;
+    width: 172px;
+}
+
+.svg-item {
+    padding: 0 5px 0 5px;
+    filter: invert(49%) sepia(98%) saturate(2034%) hue-rotate(179deg) brightness(98%) contrast(93%);
+}
+
+.svg-item:hover {
+    transition-duration: 0.2s;
+    background: rgba(210, 210, 210, 0.1);
+    border-radius: 29px;
+    cursor: pointer;
+}
+
+
+.layout__tweet {
+    padding: 5px 16px 0 16px;
+    display: flex;
+    max-width: 600px;
+    border-style: solid;
+    border-top-style: none;
+    border-width: 0.1px;
+    border-color: rgba(0,0,0,0.07);
+}
+
+.tweet__image{
+    display: flex;
+    flex-basis: 48px;
+    width: 48px;
+    flex-direction: column;
+}
+
+.tweet__body{
+    display: flex;
+    margin-left: 12px;
+    flex-direction: column;
+}
+
+.tweet__header{
+    display: flex;
+}
+
+.tweet__author-image{
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.tweet__author-dot {
+    margin: 0 1.5px 0 1.5px;
+    font-size: 15px;
+}
+
+.tweet__author-name{
+    font-weight: 700;
+}
+
+.tweet__content-image{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.1);
+}

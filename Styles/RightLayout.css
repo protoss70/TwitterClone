@@ -1,0 +1,239 @@
+.layout__right-sidebar-box{
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: auto;
+  margin-left: 10px;
+}
+
+.right__search-bar{
+
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background: #EFF3F4;
+  border-style: solid;
+  border-radius: 9999px;
+  border-color: #EFF3F4;
+}
+
+.right__search-svg{
+  width: 32px;
+  height: 18.750px;
+  padding-left: 12px;
+}
+
+.right__search{
+  border-style: none;
+  background-color: #EFF3F4;
+  padding: 12px;
+  font-size: 15px;
+}
+
+.right__search:focus{
+  outline-style: none;
+}
+
+.right__trends{
+  margin-top: 20px;
+  background: rgba(239, 243, 244, 0.7);
+  border-radius: 15px;
+  border-color: rgba(239, 243, 244, 0.7);
+}
+
+.trends__head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 14px;
+}
+
+.head__options-img{
+  width: 20px;
+  padding: 8px;
+}
+
+.head__options-img:hover{
+  transition-duration: 0.3s;
+  background: rgba(210, 210, 210, 0.4);
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.trends__item{
+  display: flex;
+  justify-content: space-between;
+  width: 316px;
+  height: 58px;
+  padding: 12px 14px;
+  align-items: flex-start;
+}
+
+.trends__item:hover, .who-follow__person:hover{
+  background: rgba(210, 210, 210, 0.2);
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.item__text-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.trend-name{
+  font-weight: bold;
+}
+
+.trend-location, .trend-bonus-info{
+  font-size: 13px;
+  font-weight: 1;
+  color: rgb(117,100,113);
+}
+
+.trending-image{
+  width: 18.75px;
+  padding: 5px;
+}
+
+.trending-image:hover{
+  transition-duration: 0.1s;
+  background: rgba(29,155,240, 0.3);
+  border-radius: 100%;
+  filter: invert(55%) sepia(58%) saturate(2925%) hue-rotate(178deg) brightness(93%) contrast(103%);
+}
+
+.trending__show-more{
+  text-decoration: none;
+  padding: 12px 16px;
+  color: rgb(42,161,241);
+}
+
+.trending__show-more:visited{
+  color: rgb(42,161,241);
+}
+
+.trending__show-container{
+  padding-bottom: 12px;
+}
+
+.trending__show-container:hover{
+  background: rgba(210, 210, 210, 0.2);
+  transition-duration: 0.2s;
+  cursor: pointer;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.right__who-follow{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  background: rgba(239, 243, 244, 0.7);
+  border-radius: 15px;
+  border-color: rgba(239, 243, 244, 0.7);
+}
+
+.who-follow__head{
+  font-weight: bold;
+  font-size: 20px;
+  padding: 14px;
+}
+
+.who-follow__person{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 14px;
+  align-items: center;
+  padding: 14px;
+}
+
+.person-content{
+  display: flex;
+  justify-content: center;
+}
+
+.who-follow__person-image{
+  width: 48px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.person__name-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.person-name{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.person-name:hover{
+  text-decoration: underline;
+}
+
+.person_user-name{
+  font-size: 13px;
+  font-weight: 1;
+  color: rgb(117,100,113);
+}
+
+.person-follow{
+  padding-top: 8px;
+  height: 32px;
+  width: 70px;
+  color: white;
+  border-radius: 50px;
+  font-size: 14px;
+  text-align: center;
+  background-color: rgb(15,20,25);
+  border-color: rgb(15,20,25);
+}
+
+.person-follow:hover{
+  background-color: rgba(15,20,25,0.85);
+  border-color: rgba(15,20,25,0.85);
+  transition-duration: 0.2s;
+}
+
+.right__footer{
+  margin-top: 20px;
+  display: flex;
+  font-size: 12px;
+  flex-direction: column;
+}
+
+.footer_svg{
+  width: 12px;
+  padding: 0, 1px;
+}
+
+.footer__top, .footer__bottom{
+  display: flex;
+  justify-content:flex-start;
+}
+
+.footer_content{
+  margin-left: 10px;
+}
+
+a.footer_content, .footer_content{
+  font-size: 13px;
+  font-weight: 1;
+  color: rgb(117,100,113);
+  text-decoration: none;
+}
+
+a.footer_content:visited{
+  color: rgb(117,100,113);
+}
+
+a.footer_content:hover{
+  text-decoration: underline;
+}
+
+.footer_svg{
+  filter: invert(45%) sepia(8%) saturate(618%) hue-rotate(262deg) brightness(90%) contrast(98%);
+}
